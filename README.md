@@ -1,16 +1,3 @@
-# Lambda Functions
+# Tic-tac-toe
 
-# Enums
-
-# wxWidgets
-
-## wxWidgets events
-
-### Binding handlers
-
-### Command events
-
-- bubble up 
-
-### Non-command events
-
+Starter files for the Connect 4 final project.
