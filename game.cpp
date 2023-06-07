@@ -35,7 +35,7 @@ Game::Game(const wxString& title)
   menubar->Append(file, wxT("&File"));
   SetMenuBar(menubar);
 
-  Connect(101, wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(Game::OnNew));
+  Connect(101, wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(Game::OnNewGame));
   Connect(wxID_EXIT, wxEVT_COMMAND_MENU_SELECTED,
           wxCommandEventHandler(Game::OnQuit));
 
